@@ -111,6 +111,11 @@ public class MovieGridFragment extends BaseFragment implements Callback<MovieLis
                 break;
             case TYPE_FAVORITES:
                 loadFavoriteMovies();
+                                try {
+                    loadFavoriteMovies();
+                } catch (Exception e) {
+                    Log.e("Error to load movie.., ", e.getMessage());
+                }
                 break;
 
         }
