@@ -1,8 +1,8 @@
 # Indonesia Android Kejar [Intermediate Final Project]
 
-dependencies {
-    compile fileTree(include: ['*.jar'], dir: 'libs')
-    testCompile 'junit:junit:4.12'
+dependencies { </br>
+    compile fileTree(include: ['*.jar'], dir: 'libs')</br>
+    testCompile 'junit:junit:4.12'</br>
     compile 'com.android.support:appcompat-v7:23.3.0'
     compile 'com.android.support:support-v4:23.3.0'
     compile 'com.android.support:recyclerview-v7:23.3.0'
